@@ -56,7 +56,7 @@ function App() {
                 <Route path="/catalog" element={<Products />} />
                 <Route path="orders" element={<Orders />}></Route>
                 <Route path="/order/:id" element={<OrderDetail />}></Route>
-                <Route path="payment" element={<Orders />}></Route>
+                <Route path="payment" element={<Payment />}></Route>
             </Routes>
           </main>
           <footer className="footer">

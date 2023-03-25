@@ -22,8 +22,7 @@ function Products() {
                 </div>
             </div>
         </li>
-    ))}
-;  
+    ))} 
     </ul>
  </div>
 );

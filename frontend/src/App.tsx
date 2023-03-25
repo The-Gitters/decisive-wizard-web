@@ -5,7 +5,9 @@ import Home from "./Home/Home";
 import Products from "./Products/Products";
 import Orders from "./Orders/Orders"
 import OrderDetail from './Orders/OrderDetail';
+import CheckoutSteps from './Payment/CheckoutSteps';
 import Payment from './Payment/Payment';
+import PaymentScreen from './Payment/Payment';
 
 function App() {
 
@@ -56,8 +58,7 @@ function App() {
                 <Route path="/catalog" element={<Products />} />
                 <Route path="orders" element={<Orders />}></Route>
                 <Route path="/order/:id" element={<OrderDetail />}></Route>
-                <Route path="payment" element={<Payment />}></Route>
-                <Route path="./payment/:props" element={<Payment />}></Route>
+                <Route path="/payment" element={<Payment />}></Route>
             </Routes>
           </main>
           <footer className="footer">
